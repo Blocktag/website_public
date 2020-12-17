@@ -27,71 +27,41 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-2bcf6d46e10df7b58643.js"
+    "url": "webpack-runtime-7832031f56e28f189367.js"
   },
   {
-    "url": "framework-f28a844ffea3cfb6872d.js"
+    "url": "framework-ac9b5dbfc53b5eded77d.js"
   },
   {
-    "url": "532a2f07-49bf2a4eaadb39c9996c.js"
+    "url": "532a2f07-7dd76452537a6c42421e.js"
   },
   {
-    "url": "app-500731c36997c4e0954b.js"
+    "url": "app-b1ac0fc3ef7c479f57c2.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "e767a59c92a389dd08ad77b9cc889cb8"
+    "revision": "f5517b9dbd0ec251874d9a9b4d421025"
   },
   {
-    "url": "google-fonts/s/heebo/v5/NGS3v5_NC0k9P9kFbqRMkK4.woff2",
-    "revision": "ed17386f7c073031a8e746e1babd8600"
+    "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-780d0321bb4481125aff.js"
   },
   {
-    "url": "google-fonts/s/heebo/v7/NGS3v5_NC0k9P9kFbqRMkK4.woff2",
-    "revision": "ed17386f7c073031a8e746e1babd8600"
-  },
-  {
-    "url": "google-fonts/s/nunito/v12/XRXV3I6Li01BKofINeaB.woff2",
-    "revision": "508e414e3d3bc41666826fee46c7d881"
-  },
-  {
-    "url": "google-fonts/s/nunito/v12/XRXW3I6Li01BKofA6sKUYevI.woff2",
-    "revision": "8b8871e482a76d7e9327b02131564af7"
-  },
-  {
-    "url": "google-fonts/s/nunito/v12/XRXW3I6Li01BKofAjsOUYevI.woff2",
-    "revision": "a22acb48f45d03d672bf5b9389363a83"
-  },
-  {
-    "url": "google-fonts/s/nunito/v12/XRXW3I6Li01BKofAksCUYevI.woff2",
-    "revision": "eaa946756e91563b4b7d766de2f5b7ed"
-  },
-  {
-    "url": "google-fonts/s/nunito/v12/XRXW3I6Li01BKofAnsSUYevI.woff2",
-    "revision": "98aabf9aea1a55e2390109ad1efddce3"
-  },
-  {
-    "url": "google-fonts/s/nunito/v12/XRXW3I6Li01BKofAtsGUYevI.woff2",
-    "revision": "f82c6fb49774f4e4caa570640e164320"
-  },
-  {
-    "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-53510201dcf61d0f1308.js"
+    "url": "polyfill-1324c97d853ad0689946.js"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "7fe671c84fe35906d9c7457828cdb324"
+    "revision": "710a73e7af6d2a88535b97b794131400"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 workbox.routing.registerRoute(/(\.js$|\.css$|static\/)/, new workbox.strategies.CacheFirst(), 'GET');
-workbox.routing.registerRoute(/^https?:.*\page-data\/.*\/page-data\.json/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
+workbox.routing.registerRoute(/^https?:.*\/page-data\/.*\.json/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
 workbox.routing.registerRoute(/^https?:.*\.(png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2|json|css)$/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
 workbox.routing.registerRoute(/^https?:\/\/fonts\.googleapis\.com\/css/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
 
 /* global importScripts, workbox, idbKeyval */
-
-importScripts(`idb-keyval-iife.min.js`)
+importScripts(`idb-keyval-3.2.0-iife.min.js`)
 
 const { NavigationRoute } = workbox.routing
 
@@ -172,7 +142,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-500731c36997c4e0954b.js`))) {
+  if (!resources || !(await caches.match(`/app-b1ac0fc3ef7c479f57c2.js`))) {
     return await fetch(event.request)
   }
 

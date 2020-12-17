@@ -1,1 +1,0 @@
-{"componentChunkName":"component---src-templates-tags-js","path":"/tags/lorem/","result":{"data":{"site":{"siteMetadata":{"title":"Blocktag - Provably Authentic"}},"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/blog/first-post/"},"frontmatter":{"title":"First Post"}}}]}},"pageContext":{"tag":"lorem"}}}
