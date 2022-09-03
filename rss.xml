@@ -1,4 +1,45 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blocktag - Provably Authentic]]></title><description><![CDATA[The last mile in authenticity.]]></description><link>https://www.blocktag.com/website</link><image><url>https://www.blocktag.com/website/icons/icon-512x512.png</url><title>Blocktag - Provably Authentic</title><link>https://www.blocktag.com/website</link></image><generator>Blocktag - Provably Authentic</generator><lastBuildDate>Sat, 03 Sep 2022 06:17:55 GMT</lastBuildDate><atom:link href="https://www.blocktag.com/website/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[© 2020 Blocktag Inc. All rights reserved.]]></copyright><item><title><![CDATA[Long Live Violin]]></title><description><![CDATA[What is the origin of an instrument’s life?
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blocktag - Provably Authentic]]></title><description><![CDATA[The last mile in authenticity.]]></description><link>https://www.blocktag.com/website</link><image><url>https://www.blocktag.com/website/icons/icon-512x512.png</url><title>Blocktag - Provably Authentic</title><link>https://www.blocktag.com/website</link></image><generator>Blocktag - Provably Authentic</generator><lastBuildDate>Sat, 03 Sep 2022 06:38:18 GMT</lastBuildDate><atom:link href="https://www.blocktag.com/website/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[© 2020 Blocktag Inc. All rights reserved.]]></copyright><item><title><![CDATA[Deepfake For Good]]></title><description><![CDATA[ChunMing Chin
+Cofounder, Director of Engineering
+Blocktag Inc]]></description><link>https://www.blocktag.com/website/blog/deepfake-for-good/</link><guid isPermaLink="false">https://www.blocktag.com/website/blog/deepfake-for-good/</guid><category><![CDATA[blocktag]]></category><category><![CDATA[deepfake]]></category><category><![CDATA[authentication]]></category><category><![CDATA[fingerprint]]></category><pubDate>Thu, 01 Sep 2022 16:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Deepfake is an AI technology that digitally alters a person’s face so that they appear to be someone else. It is often used with bad intentions. We turned the tables and found a use with good intentions. Blocktag uses deepfake to digitally alter an original tag so that you can anticipate how counterfeit tags look like.&lt;/p&gt;
+&lt;p&gt;Blocktag’s deepfake technology learns the physics of printing to predict how photocopied tags printed on different printer models will look like. Below is an image rendering of deepfake reprints and photocopies.&lt;/p&gt;
+&lt;center&gt;
+    &lt;figure&gt;
+        &lt;img width=&quot;560&quot; height=&quot;315&quot; src=&quot;/img/blog/deepfake-for-good1.png&quot; alt=&quot;DeepfakeTagSample1&quot;&gt;
+        &lt;figcaption&gt;&lt;em&gt;Figure 1: Deepfake reprints and photocopies derived from an original tag. Black pixels on red/green/blue colored background represents noisy areas that are masked out&lt;/em&gt;&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/center&gt;
+&lt;p&gt;Moreover, print physics differs on different paper types. Deepfake tags can be created more accurately if you know what material or paper is the tag printed on. The material or paper type is also useful to check print quality for users that print tags on home printers. Blocktag can infer paper type by seeing a tag’s surface texture with AI computer vision. An AI model is trained on images of tags printed on known paper types (Normal, cardboard, glossy, photo quality etc.)&lt;/p&gt;
+&lt;p&gt;Blocktag can also use AI to customize how deepfake tags look like on different phone cameras. Because cameras with different resolutions perceive the printed original tag at different sharpness. Sharper pixels can be misinterpreted as extra chaotic print artifacts from a photocopied tag. Blocktag AI corrects the camera focus to ensure a fair comparison between original and deepfake tags.&lt;/p&gt;
+&lt;center&gt;
+    &lt;figure&gt;
+        &lt;img width=&quot;560&quot; height=&quot;315&quot; src=&quot;/img/blog/deepfake-for-good2.png&quot; alt=&quot;DeepfakeTagSample2&quot;&gt;
+        &lt;figcaption&gt;&lt;em&gt;Figure 2: Deepfake reprints derived from the same original tag taken with a higher resolution camera.&lt;/em&gt;&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/center&gt;
+&lt;h2&gt;Violin Authentication Evolution&lt;/h2&gt;
+&lt;p&gt;Blocktag uses deepfakes to improve authentication accuracy. As we collect more training data from user authentications to train our deep learning model, there are more deepfake datapoints to tighten the minimum similarity threshold to pass authentication. You can visualize this in the 3D graph below. The x/y/z axis represents the target tag’s red/green/blue colored pattern similarity with it’s original fingerprint. The boxed space bounded by the 3 colored planes represent successful authentication. Each colored datapoint represents a tag instance. &lt;/p&gt;
+&lt;center&gt;
+    &lt;figure&gt;
+        &lt;img width=&quot;373&quot; src=&quot;/img/blog/tag.jpeg&quot; alt=&quot;Tag Surroundings&quot;&gt;
+        &lt;figcaption&gt;&lt;em&gt;Basic authentiction with tag&apos;s chaotic fingerprint signature in orange box. &lt;br&gt; Advanced authentication with tag&apos;s surrounding features fingerprint in purple box&lt;/em&gt;&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/center&gt;
+&lt;center&gt;
+    &lt;figure&gt;
+        &lt;img width=&quot;560&quot; height=&quot;315&quot; src=&quot;/img/blog/ViolinOutside.png&quot; alt=&quot;Violin Outside&quot;&gt;
+        &lt;figcaption&gt;&lt;em&gt;Expert authentication with 3D digital twin fingerprint from the oustide&lt;/em&gt;&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/center&gt;
+&lt;center&gt;
+    &lt;figure&gt;
+        &lt;img width=&quot;560&quot; height=&quot;315&quot; src=&quot;/img/blog/ViolinInside.png&quot; alt=&quot;Violin Inside&quot;&gt;
+        &lt;figcaption&gt;&lt;em&gt;Expert authentication with 3D digital twin fingerprint scan from the inside&lt;/em&gt;&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/center&gt;
+&lt;p&gt;In summary, Deepfake empowers a brand’s users as anti-counterfeiting&apos;s first line of defense. Before counterfeiters try to fake it till they make it.&lt;/p&gt;
+&lt;p&gt;ChunMing Chin&lt;br&gt;
+Cofounder, Director of Engineering&lt;br&gt;
+Blocktag Inc&lt;br&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Long Live Violin]]></title><description><![CDATA[What is the origin of an instrument’s life?
 From the growth of the Maple tree wood?
 From the violin maker crafting its form?
 From the…]]></description><link>https://www.blocktag.com/website/blog/long-live-violin-en/</link><guid isPermaLink="false">https://www.blocktag.com/website/blog/long-live-violin-en/</guid><category><![CDATA[blocktag]]></category><category><![CDATA[violin]]></category><category><![CDATA[digitaltwin]]></category><category><![CDATA[3D]]></category><category><![CDATA[AR]]></category><category><![CDATA[fingerprint]]></category><category><![CDATA[announcements]]></category><pubDate>Thu, 31 Mar 2022 16:00:00 GMT</pubDate><content:encoded>&lt;p&gt;What is the origin of an instrument’s life?&lt;br&gt;
