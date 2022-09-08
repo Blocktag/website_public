@@ -1,4 +1,62 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blocktag - Provably Authentic]]></title><description><![CDATA[The last mile in authenticity.]]></description><link>https://www.blocktag.com/website</link><image><url>https://www.blocktag.com/website/icons/icon-512x512.png</url><title>Blocktag - Provably Authentic</title><link>https://www.blocktag.com/website</link></image><generator>Blocktag - Provably Authentic</generator><lastBuildDate>Sat, 03 Sep 2022 15:29:05 GMT</lastBuildDate><atom:link href="https://www.blocktag.com/website/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[© 2020 Blocktag Inc. All rights reserved.]]></copyright><item><title><![CDATA[Predict Counterfeit Tags With Deepfake]]></title><description><![CDATA[Deepfake is an AI technology that digitally alters a person’s face so that they appear to be someone else. It is often used with bad…]]></description><link>https://www.blocktag.com/website/blog/deepfake-predict-counterfeit-tags/</link><guid isPermaLink="false">https://www.blocktag.com/website/blog/deepfake-predict-counterfeit-tags/</guid><category><![CDATA[blocktag]]></category><category><![CDATA[technical]]></category><category><![CDATA[deepfake]]></category><category><![CDATA[authentication]]></category><category><![CDATA[fingerprint]]></category><pubDate>Thu, 01 Sep 2022 16:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Deepfake is an AI technology that digitally alters a person’s face so that they appear to be someone else. It is often used with bad intentions. We turned the tables and found a use for good. Blocktag uses deepfake to digitally alter an original tag so that you can anticipate how counterfeit tags look like.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blocktag - Provably Authentic]]></title><description><![CDATA[The last mile in authenticity.]]></description><link>https://www.blocktag.com/website</link><image><url>https://www.blocktag.com/website/icons/icon-512x512.png</url><title>Blocktag - Provably Authentic</title><link>https://www.blocktag.com/website</link></image><generator>Blocktag - Provably Authentic</generator><lastBuildDate>Thu, 08 Sep 2022 06:38:47 GMT</lastBuildDate><atom:link href="https://www.blocktag.com/website/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[© 2020 Blocktag Inc. All rights reserved.]]></copyright><item><title><![CDATA[Photocopy Detection Using Print Chaos & Resolution]]></title><description><![CDATA[How does Blocktag use your phone’s camera to distinguish an original tag from a photocopy?  The naked eye cannot see much difference in the…]]></description><link>https://www.blocktag.com/website/blog/photocopy-detection-print-chaos-and-resolution/</link><guid isPermaLink="false">https://www.blocktag.com/website/blog/photocopy-detection-print-chaos-and-resolution/</guid><category><![CDATA[blocktag]]></category><category><![CDATA[technical]]></category><category><![CDATA[deepfake]]></category><category><![CDATA[authentication]]></category><category><![CDATA[fingerprint]]></category><pubDate>Fri, 02 Sep 2022 16:00:00 GMT</pubDate><content:encoded>&lt;p&gt;How does Blocktag use your phone’s camera to distinguish an original tag from a photocopy? &lt;/p&gt;
+&lt;h2&gt; Detect Photocopies From Micro Chaotic Print Artifacts &lt;/h2&gt;
+&lt;p&gt;The naked eye cannot see much difference in the colored areas. &lt;/p&gt;
+&lt;center&gt;
+    &lt;figure&gt;
+        &lt;img width=&quot;300&quot; src=&quot;/img/blog/OriginalQR.png&quot; alt=&quot;OriginalQR&quot;&gt;
+        &lt;figcaption&gt;&lt;em&gt;Figure 1: Original Tag&lt;/em&gt;&lt;/figcaption&gt;
+    &lt;/figure&gt;
+    
+    &lt;figure&gt;
+        &lt;img width=&quot;300&quot; src=&quot;/img/blog/PhotocopyQR.png&quot; alt=&quot;PhotocopyQR&quot;&gt;
+        &lt;figcaption&gt;&lt;em&gt;Figure 2: Photocopy Tag&lt;/em&gt;&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/center&gt;
+&lt;p&gt;But the phone camera can see things that your eyeballs cannot see. Photocopied tags have micro differences in chaotic print artifacts. &lt;/p&gt;
+&lt;center&gt;
+    &lt;figure&gt;
+        &lt;img width=&quot;300&quot; src=&quot;/img/blog/OriginalPhotocopySideBySide.png&quot; alt=&quot;DeepfakeTagSample2&quot;&gt;
+        &lt;figcaption&gt;&lt;em&gt;Figure 3: Side by side comparison of chaotic artifacts between original (left) and photocopied (right) tags.&lt;/em&gt;&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/center&gt;
+&lt;h2&gt; Quantify Original Vs Photocopy Tag Similarity &lt;/h2&gt;
+&lt;p&gt;Similarity between the original tag’s red pattern and the same tag’s fingerprint =0.85 on a range from -1 to 1 (-1 means it is a different tag. 1 means it is the same tag). &lt;/p&gt;
+&lt;center&gt;
+    &lt;figure&gt;
+        &lt;img width=&quot;560&quot; height=&quot;315&quot; src=&quot;/img/blog/OriginalGrayAnalysis.png&quot; alt=&quot;OriginalGrayAnalysis&quot;&gt;
+        &lt;figcaption&gt;&lt;em&gt;Figure 4: Gray scaled authentication results between original and fingerprinted red/green/blue tag patterns of the same tag. &lt;/em&gt;&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/center&gt;
+&lt;p&gt;On the contrary, similarity between a photocopied tag and the original tag’s fingerprint is lower =0.42.&lt;/p&gt;
+&lt;center&gt;
+    &lt;figure&gt;
+        &lt;img width=&quot;560&quot; height=&quot;315&quot; src=&quot;/img/blog/PhotocopyGrayAnalysis.png&quot; alt=&quot;PhotocopyGrayAnalysis&quot;&gt;
+        &lt;figcaption&gt;&lt;em&gt;Gray scaled authentication results between photocopied and fingerprinted tag’s red, green and blue patterns. &lt;/em&gt;&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/center&gt;
+&lt;h2&gt; Magnifying Glass Visualisation &lt;/h2&gt;
+Blocktag also provides a more convenient solution for the traditional practice of eyeballing authenticity with a magnifying glass. If the similarity value is insufficient for authentication, you can visualize print differences with the rightmost column’s similarity image. Black parts represent areas that are masked out to increase authentication signal from the chaotic artifact areas. Darker gray pixels represent areas where the target and fingerprint are most different. 
+&lt;h2&gt; Detect Photocopies From Macro Photocopy Resoution &lt;/h2&gt;
+Photocopied tags also have macro differences in print sharpness. The higher the dots per inch (dpi) resolution of the photocopier, the sharper the image. For example, home scanners work at 300dpi to 1200dpi, while industry-grade laser photocopiers work at upwards of 2400dpi. Blocktag’s computer vision distinguishes original tags from photocopied tags with lower or higher sharpness. 
+&lt;h2&gt; Detect Photocopies From Different Camera Resoutions &lt;/h2&gt;
+Sharpness also depends on the camera. Different camera resolutions will perceive a printed tag at different sharpness. For example, a 12-megapixel phone camera captures image sizes at 4032 x 3024 pixels. Below is an original tag fingerprinted with a higher resolution camera (Grayed Fingerprint) versus the same tag targeted by a user for authentication (Grayed Target). The similarity threshold =0.87 is determined from artificially created deepfake tags. 
+&lt;center&gt;
+    &lt;figure&gt;
+        &lt;img width=&quot;560&quot; height=&quot;315&quot; src=&quot;/img/blog/BlueColorBeforeSharpAdjustment.png&quot; alt=&quot;BlueColorBeforeSharpAdjustment&quot;&gt;
+        &lt;figcaption&gt;&lt;em&gt;&lt;/em&gt;&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/center&gt;
+&lt;p&gt;The authentication target image is more blurred and looks like a different tag with less chaotic print artifacts compared to the tag fingerprint image.&lt;br&gt;
+The Blocktag app corrects camera focus across different camera models for a fair comparison. In the example below, the same tag’s fingerprint image is adjusted so that sharper pixels are not misunderstood as extra chaotic print artifacts from a different tag. Similarity with the sharpness-corrected fingerprint image is improved to 0.91. &lt;/p&gt;
+&lt;center&gt;
+    &lt;figure&gt;
+        &lt;img width=&quot;560&quot; height=&quot;315&quot; src=&quot;/img/blog/BlueColorAfterSharpAdjustment.png&quot; alt=&quot;BlueColorAfterSharpAdjustment&quot;&gt;
+        &lt;figcaption&gt;&lt;em&gt;&lt;/em&gt;&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/center&gt;
+&lt;p&gt;ChunMing Chin&lt;br&gt;
+Cofounder, Director of Engineering&lt;br&gt;
+Blocktag Inc&lt;br&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Predict Counterfeit Tags With Deepfake]]></title><description><![CDATA[Deepfake is an AI technology that digitally alters a person’s face so that they appear to be someone else. It is often used with bad…]]></description><link>https://www.blocktag.com/website/blog/deepfake-predict-counterfeit-tags/</link><guid isPermaLink="false">https://www.blocktag.com/website/blog/deepfake-predict-counterfeit-tags/</guid><category><![CDATA[blocktag]]></category><category><![CDATA[technical]]></category><category><![CDATA[deepfake]]></category><category><![CDATA[authentication]]></category><category><![CDATA[fingerprint]]></category><pubDate>Thu, 01 Sep 2022 16:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Deepfake is an AI technology that digitally alters a person’s face so that they appear to be someone else. It is often used with bad intentions. We turned the tables and found a use for good. Blocktag uses deepfake to digitally alter an original tag so that you can anticipate how counterfeit tags look like.&lt;/p&gt;
 &lt;h2&gt; Deep Learning For Print Physics &lt;/h2&gt;
 Blocktag’s deepfake technology learns the physics of printing to predict how reprinted tags from different printer models will look like. Below is an image rendering of deepfake reprints.
 &lt;center&gt;
