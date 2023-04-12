@@ -3,10 +3,9 @@
 <url> <loc>https://www.blocktag.com/blog</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.blocktag.com/blog/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.blocktag.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.blocktag.com/secureqr/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.blocktag.com/privacy/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.blocktag.com/pricing/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.blocktag.com/tos/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://www.blocktag.com/pricing/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.blocktag.com/contact/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.blocktag.com/notary/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.blocktag.com/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -18,8 +17,8 @@
 <url> <loc>https://www.blocktag.com/blog/deepfake-predict-counterfeit-tags/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.blocktag.com/blog/art-of-technology/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.blocktag.com/blog/the-red-violin-timeless-memory copy/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.blocktag.com/blog/violin-digital-twin/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.blocktag.com/blog/the-red-violin-timeless-memory/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://www.blocktag.com/blog/violin-digital-twin/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.blocktag.com/tags/blocktag/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.blocktag.com/tags/problem/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.blocktag.com/tags/anticounterfeit/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
