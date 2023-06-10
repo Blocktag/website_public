@@ -12,7 +12,6 @@
 <url> <loc>https://www.blocktag.com/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.blocktag.com/dashboard/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.blocktag.com/blog/blocktag-blockchain/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.blocktag.com/blog/authentication-on-fabrics-during-pandemic/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.blocktag.com/blog/AR-marker/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.blocktag.com/blog/augmented-reality-for-authentication-tags/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.blocktag.com/blog/deepfake-predict-counterfeit-tags/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -21,6 +20,7 @@
 <url> <loc>https://www.blocktag.com/blog/the-red-violin-timeless-memory copy/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.blocktag.com/blog/the-red-violin-timeless-memory/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.blocktag.com/blog/violin-digital-twin/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://www.blocktag.com/blog/authentication-on-fabrics-during-pandemic/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.blocktag.com/tags/blocktag/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.blocktag.com/tags/problem/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.blocktag.com/tags/anticounterfeit/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
