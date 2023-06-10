@@ -11,8 +11,8 @@
 <url> <loc>https://www.blocktag.com/contact/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.blocktag.com/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.blocktag.com/dashboard/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://www.blocktag.com/blog/blocktag-blockchain/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.blocktag.com/blog/authentication-on-fabrics-during-pandemic/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.blocktag.com/blog/problems-solved/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.blocktag.com/blog/AR-marker/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.blocktag.com/blog/augmented-reality-for-authentication-tags/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.blocktag.com/blog/deepfake-predict-counterfeit-tags/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
