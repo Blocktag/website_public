@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkBlocktag=self.webpackChunkBlocktag||[]).push([[995],{94499:function(e,t,a){a.r(t);var s=a(67294),c=a(31806);t.default=()=>s.createElement(c.Z,null,s.createElement("section",{className:"hero is-primary is-bold is-large"},s.createElement("div",{className:"hero-body has-text-centered"},s.createElement("h1",{className:"title"},"Success"))))}}]);
+//# sourceMappingURL=component---src-pages-contact-success-index-js-e0f1eb9f000967250078.js.map
