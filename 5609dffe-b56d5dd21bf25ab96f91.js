@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkTutti=self.webpackChunkTutti||[]).push([[233],{96721:function(t,s,u){u(67294);s.Z=u.p+"static/logo.e1789f7c.svg"}}]);
-//# sourceMappingURL=5609dffe-b56d5dd21bf25ab96f91.js.map
