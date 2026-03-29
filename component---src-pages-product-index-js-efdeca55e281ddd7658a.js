@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkTutti=self.webpackChunkTutti||[]).push([[862],{24324:function(t,u,e){e.r(u),e.d(u,{default:function(){return c}});var n=e(67294),r=e(91431);function c(){return n.createElement(r.Z,null)}}}]);
+//# sourceMappingURL=component---src-pages-product-index-js-efdeca55e281ddd7658a.js.map

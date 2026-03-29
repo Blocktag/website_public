@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkTutti=self.webpackChunkTutti||[]).push([[995],{94499:function(e,t,s){s.r(t);var a=s(67294),c=s(91431);t.default=()=>a.createElement(c.Z,null,a.createElement("section",{className:"hero is-primary is-bold is-large"},a.createElement("div",{className:"hero-body has-text-centered"},a.createElement("h1",{className:"title"},"Success"))))}}]);
+//# sourceMappingURL=component---src-pages-contact-success-index-js-c42cc954e702d3690f9c.js.map
